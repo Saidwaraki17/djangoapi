@@ -1,0 +1,3 @@
+django == 4.2.1
+djangorestframework  # this framework is necessary for creating
+# backends as they posess huge data 

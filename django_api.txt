@@ -1,0 +1,51 @@
+API -- Application Programming Interface
+It is a interface that relates two servers,
+interfaces or softwares to communicate
+e.g our software is linked to youtube software
+
+They have rules
+e.g youtube has got many servers
+1. we send data in json format to API and we get back 
+data in json format
+Hence, to transfer/receive data we need data in json 
+2. We have servers on many internet they provide their 
+APIs
+
+Hence when user requests the data for info on a website
+API in backend responds and sends a response on to 
+the website
+
+resources required for us
+
+Company API
+Employee API
+    Here we share one to many relationship between 
+Company and Employee
+
+
+SIX STEPS TO HAVE A FULLWORKING API
+
+1. Install Python, Django, and Django Rest Framework
+
+2. set up django models - database
+
+3. Set up serializers - i.e we convert data to json and 
+it is converted into objects - Hence, here data is 
+serialized and deserialized
+i.e. 
+when a request comes
+-> if data is in json it is converted into objects
+    and serialized
+-> else if data is in object format it is directly
+    serialized.
+
+4. set up views - we accept request
+
+5. set up urls - here url and views are mapped
+    i.e they undergo mapping.
+
+6. Final step - Test your API
+    testing is through 2 softwares
+    1. Browser
+    2. Postman
+
